@@ -1,10 +1,10 @@
-SET PDIPATH=C:\Workstation\data-integration\
+::SET PDIPATH=C:\Workstation\data-integration\
 SET KETTLEPATH=C:\Workstation\move-to-mifosx\KettleJobs\
 
 :: location where source database dump is located, comment below line if source DB is already restored
 :: SET SOURCEDUMP=E:\Projects\Clients\secdep\secdepx\move-to-mifosx\source_db_dump\source.sql
 SET DESTDB=mifosx
-SET SOURCEDB=mifos
+::SET SOURCEDB=mifos
 
 ::  comment below two lines if source DB is already restored
 :: mysql -uroot -pmysql USE %SOURCEDB%;
